@@ -1,8 +1,8 @@
 class Book:
     """ Базовый класс книги. """
     def __init__(self, name: str, author: str):
-        self._name = None
-        self._author = None
+        self._name = name
+        self._author = author
 
     def __str__(self):
         return f"Книга {self.name}. Автор {self.author}"
